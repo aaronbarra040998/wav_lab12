@@ -1,0 +1,7 @@
+<!-- post-list.component.html -->
+
+<ul class="post-list">
+  <li *ngFor="let publicacion of publicaciones" class="post-item">
+    <a [routerLink]="['/posts', publicacion.id]" class="post-link">{{ publicacion.titulo }}</a>
+  </li>
+</ul>

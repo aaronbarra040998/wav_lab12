@@ -1,0 +1,68 @@
+/* Estilos mejorados para una apariencia más moderna */
+*{
+    background-color: rgba(255, 255, 255, 0);
+}
+.users-list-container {
+    font-family: 'Arial', sans-serif; /* Cambio de fuente */
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .users-list-title {
+    color: #343a40;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .user-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .user-item {
+    margin: 10px 0;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .user-item:hover {
+    background-color: #edf2f7;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .user-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-name {
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .details-button {
+    background-color: #446b7b;
+    color: #ffffff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .details-button:hover {
+    background-color: #f3a261;
+    color: #264653;
+    font-weight: bold;
+    border: 2px solid #e9c46b;
+    border-radius: 5px;
+    transform: scale(1.05);
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease, border 0.3s ease;
+  }

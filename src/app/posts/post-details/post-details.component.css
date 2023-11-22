@@ -1,0 +1,44 @@
+/* Estilos mejorados para los detalles de la publicación */
+*{
+    background-color: rgba(255, 255, 255, 0);
+}
+.post-details {
+    font-family: 'Arial', sans-serif; /* Cambio de fuente */
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .post-details:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-title {
+    color: #343a40;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+  }
+  
+  .post-content {
+    color: #495057;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .post-details a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .post-details a:hover {
+    color: #0056b3;
+  }
+  

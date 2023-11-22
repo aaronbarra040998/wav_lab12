@@ -1,0 +1,12 @@
+<!-- user-details.component.html -->
+
+<div *ngIf="usuario" class="user-details">
+  <h2 class="user-title">Detalles del Usuario</h2>
+  <p><strong>ID:</strong> {{ usuario.id }}</p>
+  <p><strong>Nombre:</strong> {{ usuario.nombre }}</p>
+  <p><strong>Detalles:</strong> {{ usuario.detalle }}</p>
+</div>
+
+<div *ngIf="!usuario" class="user-not-found">
+  <p>Usuario no encontrado.</p>
+</div>

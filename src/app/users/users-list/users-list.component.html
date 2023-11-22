@@ -1,0 +1,14 @@
+<!-- users-list.component.html -->
+
+<div class="users-list-container">
+  <h2 class="users-list-title">Lista de Usuarios</h2>
+
+  <ul class="user-list">
+    <li *ngFor="let usuario of usuarios" class="user-item">
+      <div class="user-info">
+        {{ usuario.nombre }}
+        <button (click)="verDetalles(usuario.id)" class="details-button">Ver Detalles</button>
+      </div>
+    </li>
+  </ul>
+</div>

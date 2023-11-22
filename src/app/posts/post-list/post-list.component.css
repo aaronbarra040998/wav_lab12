@@ -1,0 +1,40 @@
+/* Estilos mejorados para la lista de publicaciones */
+*{
+    background-color: rgba(255, 255, 255, 0);
+}/* Estilos mejorados para la lista de publicaciones */
+
+.post-list {
+    font-family: 'Arial', sans-serif; /* Cambio de fuente */
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    gap: 15px;
+  }
+  
+  .post-item {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .post-item:hover {
+    background-color: #f8f9fa;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .post-link {
+    color: #264653;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Cambio de fuente */
+    font-weight: bold;
+    font-size: 16px; /* Tamaño de fuente ligeramente reducido */
+    transition: color 0.3s ease;
+    display: block;
+  }
+  
+  .post-link:hover {
+    color: #0056b3;
+  }
